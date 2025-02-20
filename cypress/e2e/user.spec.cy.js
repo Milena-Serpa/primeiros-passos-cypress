@@ -9,8 +9,7 @@ const menuPage = new MenuPage
 
 describe('Orange HRM Tests', () => {
 
-  const selectorsList = {
-            
+  const selectorsList = {            
     firstNameField: "[name='firstName']",
     lastNameField: "[name='lastName']",
     genericField: ".oxd-input--active",
@@ -18,7 +17,7 @@ describe('Orange HRM Tests', () => {
     dateCloseButton: ".--close",
     selectionBox: "[clear='false']",
     saveButton: "[type='submit']",
-    }
+  }
     
   it.only('User Info Update - Sucess', () => {
     loginPage.accessLoginPage()
