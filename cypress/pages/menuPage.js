@@ -17,7 +17,6 @@ class MenuPage{
             buzzButton: '[href="/web/index.php/buzz/viewBuzz"]',
             titlePage: '.orangehrm-main-title',
             topBar: '.oxd-topbar-header-title',
-
         }
 
         return selectors
