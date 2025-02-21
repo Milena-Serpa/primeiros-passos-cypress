@@ -22,7 +22,6 @@ class MenuPage{
         return selectors
     }
 
-
     accessSearch() {
         cy.get(this.selectorsList().searchButton).click()
         cy.get(this.selectorsList().titlePage).eq(0).should('contain', 'Personal Details')
